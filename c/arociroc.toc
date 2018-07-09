@@ -1,0 +1,10 @@
+\contentsline {part}{I\hspace {1em}Approximating Instantaneous Rates of Change}{3}{part.1}
+\contentsline {section}{Name}{3}{section*.1}
+\contentsline {section}{Video Set Introduction}{5}{section*.2}
+\contentsline {section}{Video 1}{8}{section*.3}
+\contentsline {section}{Video 2}{9}{section*.4}
+\contentsline {section}{Video 3}{10}{section*.5}
+\contentsline {section}{Video 4}{11}{section*.6}
+\contentsline {section}{Post Video Questions}{12}{section*.7}
+\contentsline {section}{Instantaneous RoC Reflection}{13}{section*.8}
+\contentsfinish 

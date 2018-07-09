@@ -1,0 +1,53 @@
+\documentclass[handout]{ximera}
+
+\title{Post Video Questions}
+
+\begin{document}
+
+\begin{abstract}
+\end{abstract}
+
+% set 4 post video
+
+\maketitle
+
+\begin{javascript}
+nameCheck = function(a,b) {
+    return a.toLowerCase() != b.toLowerCase();
+  };
+
+isDerivative = function(a,b) {
+    return a.equals( b.derivative('x') );
+  };
+
+\end{javascript}
+
+Please answer each of these questions to the best of your ability. You are welcome to re-watch parts of any of the videos to help you.
+
+For each of the following functions, find the derivative function. To enter the number $\pi$, type ``pi.''
+
+\begin{problem}
+$f(x)=-2x^{-3}+7$, $f'(x)=\answer{6x^{-4}}$
+\end{problem}
+
+\begin{problem}
+$f(x)=-13 x^{\pi}+2+\sqrt[4]{x^3}$, $f'(x)=\answer[validator=isDerivative]{-13 x^{\pi} + 2 + x^{3/4}}$
+\end{problem}
+
+\begin{problem}
+$f(x)= 2^x$, $f'(x)=\answer[validator=isDerivative]{2^x}$
+\end{problem}
+
+\begin{problem}
+$f(x)=\log_e(x)$, $f'(x)=\answer[validator=isDerivative]{\ln(x)}$
+\end{problem}
+
+\begin{problem}
+$f(x)=\log_{10}(x)$, $f'(x)=\answer[validator=isDerivative]{(\ln(x))/(\ln(10))}$
+\end{problem}
+
+\begin{problem}
+$f(x)=e^{2\ln(x)}$, $f'(x)=\answer[validator=isDerivative]{x^2}$
+\end{problem}
+
+\end{document}

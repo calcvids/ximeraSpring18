@@ -1,0 +1,96 @@
+\documentclass[handout]{ximera}
+
+\title{Video Set Introduction}
+
+\begin{document}
+
+\begin{abstract}
+\end{abstract}
+
+%Video: Intro to Approximating Speed %Calculus Video 1
+
+\maketitle
+
+\begin{javascript}
+  nameCheck = function(a,b) {
+    return a.toLowerCase() != b.toLowerCase();
+  };
+\end{javascript}
+
+Before watching the videos, think about and answer these questions to the best of your ability. Your answer will always be recorded as correct, regardless of your answer choice.
+
+A car speeds up as it drives away from a traffic light. The car’s GPS unit records its distance from the light in the table below:
+
+
+\begin{table}[h!]
+\centering
+\caption{Time and Distance}
+\label{my-label}
+\begin{tabular}{ll}
+Time (seconds) & Distance (meters) \\
+0              & 0                 \\
+1              & 1                 \\
+2              & 3                 \\
+3              & 6                 \\
+4              & 10                \\
+5              & 15                \\
+6              & 21                \\
+7              & 27
+\end{tabular}
+\end{table}
+
+\begin{problem}
+Compute an approximation of the car’s speed at the 5-second mark.
+$\answer[format=string,validator=nameCheck]{}$.
+\end{problem}
+
+\begin{problem}
+Is the value you computed:
+\begin{multipleChoice}
+\choice[correct]{Equal to the car’s speed at the 5-second mark}
+\choice[correct]{An underestimate of the car’s speed at the 5-second mark}
+\choice[correct]{An overestimate of the car’s speed at the 5-second mark}
+\choice[correct]{Neither an underestimate nor an overestimate}
+\choice[correct]{You can’t tell without having more information}
+\end{multipleChoice}
+\end{problem}
+
+\begin{problem}
+How could you improve your approximation of the car’s speed at the 5-second mark?
+\begin{multipleChoice}
+\choice[correct]{You don’t need to make an improvement because the speed you calculated \emph{is} the car’s speed at the 5-second mark}
+\choice[correct]{Use a different pair of points from the table to compute the speed}
+\choice[correct]{Use two pairs of points from the table to compute two speeds, and then average these speeds}
+\choice[correct]{Use a larger interval of time (e.g., if you originally used a 1-second time interval, a 2-second time interval would improve your approximation)}
+\choice[correct]{Use a smaller interval of time (which would require additional information)}
+\end{multipleChoice}
+\end{problem}
+
+
+
+\end{document}
+
+
+
+\begin{problem}
+The graph below represents the relationship between a car’s distance in kilometers from an intersection (represented by $f(t)$) and the number of minutes elapsed since the car passed the intersection (represented by the variable $t$). Approximate the average rate of change of $f(t)$ with respect to t over the interval $[4, 6]$.
+
+[graph here]
+
+Rate of change: $\answer{5}$
+
+\end{problem}
+
+\begin{problem}
+A car is driving away from a traffic light. The distance $d$ (in feet) of the car from the traffic light $t$ seconds since the car started moving is given by the formula $d = 1.3t^2 - 17$.
+Write an expression that represents the approximate the speed of the car 5 seconds after it started moving.
+$d(t) = \answer{5}$\\
+
+Is the value of the expression you wrote in part an overestimate or underestimate of the car’s actual speed 5 seconds after it started moving?
+
+\begin{multipleChoice}
+\choice[correct]{overestimate}
+\choice[correct]{underestimate}
+\end{multipleChoice}
+
+\end{problem}

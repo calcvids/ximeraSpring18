@@ -1,0 +1,6 @@
+\contentsline {part}{I\hspace {1em}The Chain Rule}{3}{part.1}
+\contentsline {section}{Video Set Introduction}{3}{section*.1}
+\contentsline {section}{Chain Rule Video}{4}{section*.2}
+\contentsline {section}{Post Video Questions}{5}{section*.3}
+\contentsline {section}{Video Set 5 Reflection}{6}{section*.4}
+\contentsfinish 

@@ -1,0 +1,48 @@
+\documentclass[handout]{ximera}
+
+\title{Name}
+
+\begin{document}
+
+\begin{abstract}
+\end{abstract}
+
+%Video: Intro to Approximating Speed %Calculus Video 1
+
+\maketitle
+
+
+\begin{javascript}
+  nameCheck1 = function(a,b) {
+    return a.toLowerCase() != b.toLowerCase();
+  };
+    nameCheck2 = function(c,d) {
+    return c.toLowerCase() != d.toLowerCase();
+  };
+\end{javascript}
+
+In the boxes below, please enter your first and last names. After you have typed it, press enter or click the question mark to submit your name.\\
+
+\begin{question}
+First name:
+$\answer[format=string,validator=nameCheck1]{}$
+\end{question}
+
+\begin{question}
+Last name:
+$\answer[format=string,validator=nameCheck2]{}$
+\end{question}
+
+\begin{question}
+I agree to let the researchers use my data in the study (see details below)
+
+\begin{multipleChoice}
+\choice[correct]{yes}
+\choice[correct]{no}
+\end{multipleChoice}
+
+As part of your regular class activities, you will be watching several calculus videos and answering related questions. These videos and questions are part of a study that is investigating how students use and learn from calculus video lessons; the results of this study will be used to improve math videos and help students learn calculus more effectively. This web site will record your use of each video and your responses to the questions. If you consent (above), the researchers will be able to use your data in their study. Participating (or not) will have no impact on your course grade, your name will not be shared with other people, and you are able to withdraw from the study at any time. Please see the form linked \href{http://calcvids.org/pages/consent_form.pdf}{here} for full information.
+
+\end{question}
+
+\end{document}

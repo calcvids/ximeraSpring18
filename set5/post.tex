@@ -1,0 +1,39 @@
+\documentclass[handout]{ximera}
+
+\title{Post Video Questions}
+
+\begin{document}
+
+\begin{abstract}
+\end{abstract}
+
+% set 5 post video
+
+\maketitle
+
+\begin{javascript}
+nameCheck = function(a,b) {
+    return a.toLowerCase() != b.toLowerCase();
+  };
+
+isDerivative = function(a,b) {
+    return a.equals( b.derivative('x') );
+  };
+
+\end{javascript}
+
+Please answer each of these questions to the best of your ability. You are welcome to re-watch parts of any of the video to help you.
+
+\begin{problem}
+$f(x)=4e^{3x}$, $f'(x)=\answer{12 \exp(3x)}$
+\end{problem}
+
+\begin{problem}
+$f(x)=\sin(x^2)$, $f'(x)=\answer[validator=isDerivative]{\sin(x^2)}$
+\end{problem}
+
+\begin{problem}
+$f(x)=\sqrt{5+x^7}$, $f'(x)=\answer[validator=isDerivative]{(5+x^7)^{1/2}}$
+\end{problem}
+
+\end{document}

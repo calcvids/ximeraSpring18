@@ -1,0 +1,51 @@
+\documentclass[handout]{ximera}
+
+\title{Post Video Questions}
+
+\begin{document}
+
+\begin{abstract}
+\end{abstract}
+
+% set 6 post video
+
+\maketitle
+
+\begin{javascript}
+nameCheck = function(a,b) {
+    return a.toLowerCase() != b.toLowerCase();
+  };
+
+isDerivative = function(a,b) {
+    return a.equals( b.derivative('x') );
+  };
+
+\end{javascript}
+
+Please answer each of these questions to the best of your ability. You are welcome to re-watch parts of any of the video to help you.
+
+To enter the number $\pi$, type ``pi''. Enter answers to at least three decimal places.
+
+\begin{problem}
+Consider the function $f(x)=-x^{3.4}+2x^{2.4}+2$. Use calculus to find the maximum value of $f(x)$ over the interval $[-.75,4]$.
+$\answer[tolerance=0.01]{3.379}$
+\end{problem}
+
+\begin{problem}
+You have a 10-foot long piece of wood and a long rope. You want to use these materials to make a right triangle where the legs are made from the wood and the hypotenuse is made from the rope. Where should you cut the wood to maximize the area of the triangle?
+
+You should cut the wood $\answer{5}$ ft from the end.
+\end{problem}
+
+\begin{problem}
+You have 10 square inches of Aluminum and want to use this to make a cylindrical can. What should its dimensions be to maximize its volume?
+
+
+% The total surface area of an aluminum can is to use exactly 10 square inches of aluminum. What should be the can’s dimensions to maximize its volume?
+
+The height should be: $\answer[tolerance=0.01]{1.45673124079}$ inches.
+
+The radius should be: $\answer[tolerance=0.01]{0.728365620395}$ inches.
+\end{problem}
+
+\end{document}

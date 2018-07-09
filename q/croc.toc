@@ -1,0 +1,2 @@
+\contentsline {part}{I\hspace {1em}Constant Rate of Change}{3}{part.1}
+\contentsfinish 
